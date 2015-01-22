@@ -3,3 +3,7 @@ This is the log files for Assignment 3 by Jesse Smidt.
 Start: Wed, 21 Jan 2015 18:30:00 +0000
 End: Wed, 21 Jan 2015 18:49:54 +0000 
 Task: "Initial commit.  Cloned assignment directory and coppied required files into personal assignment directory.  Edited Log file."
+
+Start: Thu, 22 Jan 2015 12:15:00 +0000
+End: Thu, 22 Jan 2015 15:57:58 +0000 
+Task: "Worked on functions.js, objects.js, and variables.js. Found some aspects challenging but educational.  parseGit in functions.js needs fixing"
