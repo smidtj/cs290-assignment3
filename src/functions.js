@@ -76,14 +76,14 @@ function GitLog(hash, date, message) {
 
 //your code here
 function parseGit(logArray){
-	var tempArray
+	var tempArray = []
 	for (i = 0; i < logArray.length; i++){
 		var space_split = logArray[i].split(" ") 
 		var a = space_split[0]
-		var b = space_split[1] + " " + space_split[2] + " " + space_split[3] + " " + space_split[4] + " " + space_split[5] + " " + space_split[6]
+		var b = new Date(space_split[1] + " " + space_split[2] + " " + space_split[3] + " " + space_split[4] + " " + space_split[5] + " " + space_split[6])
 		var quote_split = logArray[i].split('"')
 		var c = quote_split[1]
-		tempArray[i] = new GitLog(a, b, c);
+		tempArray.push(new GitLog(a, b, c))
 	}
 	return tempArray;
 }
